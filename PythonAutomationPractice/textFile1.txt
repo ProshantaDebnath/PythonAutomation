@@ -1,0 +1,4 @@
+abc
+cdf
+This a text file.dft
+1234

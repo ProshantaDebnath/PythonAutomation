@@ -8,3 +8,4 @@ class ChildMethod(Calculator):
 
     obj = Calculator(4,5)
     obj.add()
+
