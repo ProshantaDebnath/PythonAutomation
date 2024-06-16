@@ -50,3 +50,6 @@ for data in ActualListData:
     ActualList.append(data.text)
 
 assert ExpectedList == ActualList
+
+#taking screenshots
+driver.get_screenshot_as_file("products")
