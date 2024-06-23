@@ -12,8 +12,6 @@ chrome_options.add_argument("--ignore-certificate-errors")
 # Maximize screen mood
 chrome_options.add_argument("--start-maximized")
 
-
-
 # Chrome browser invoke by driver through manually
 service_obj = Service("C:\\Users\\Proshanta\\Desktop\\PythonAutomation\\driver\\chromedriver.exe")
 driver = webdriver.Chrome(service=service_obj, options=chrome_options)
