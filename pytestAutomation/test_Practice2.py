@@ -7,7 +7,15 @@ def test_userProgram():
 
 
 @pytest.mark.smoke
-def test_creditProgram():
+def test_creditProgram(setup):
     a = 4
     b = 6
     assert a + 2 == 6, "Addition not matched."
+
+
+def test_fixtureDemo(setup):
+    print("FixtureDEMO method is executing")
+
+
+def test_crossBrowser(crossBrowser):
+    print(crossBrowser)

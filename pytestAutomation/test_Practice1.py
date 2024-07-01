@@ -8,6 +8,9 @@
 # Run any specific method on a file ---> py.test -k test_firstProgram -v -s
 # we can mark(tag) test @pytest.mark.some and then run with -m
 # pytest.mark.xfail is used for not to show pass or failed status in reports
+# fixture are used as setup and tear down methods for test cases - conftest file to generalize
+# fixture is available all the test cases
+
 
 import pytest
 

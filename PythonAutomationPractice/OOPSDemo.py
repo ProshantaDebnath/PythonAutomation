@@ -19,3 +19,4 @@ class Calculator:
 
 
 obj = Calculator(5,4)
+print(obj)
